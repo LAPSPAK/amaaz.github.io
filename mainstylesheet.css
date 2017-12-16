@@ -7,36 +7,62 @@ display:flex;
 flex:1;
 margin-right:10px;
 
-background-color:#DCDCDC;
+background-color:white;
 }
 .menu{
 
 position:Absolute;
-font-size: 18px;
+font-size: 16px;
 
 }
+.awesom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+}
 
+.awesom li {
+    float: left;
+  list-style-type: none;
+font-size:24px;
+}
+
+.awesom li a {
+    display: block;
+   
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.menu
+{
+margin-top:1px;
+}
 .menu li {
 border-style:solid;
 border-color:#DCDCDC;
 list-style:none;
 width:160;
 padding:5;
+font-family:sans-serif;
 }
 .container{
 position:absolute;
-margin-top:35px;
+margin-top:0px;
 margin-left:230;
 margin-right:15px;
-background-color:#DCDCDC;
+background-color:white;
 width:overflow;
 height:900;
 }
 .containerText{
 margin-right:10px;
 margin-left:15px;
-font-size:18px;
+font-size:16px;
 line-height:26px;
+font-family:sans-serif;
 
 }
 .wrap {
@@ -53,16 +79,20 @@ margin-left:37px;
 
 .center {
   float:left;
-  min-width:500px;
+  min-width:1200px;
 margin-left:0px;
 height:170px;
-background-color:#DCDCDC;
+
 }
 
-.right {
-  float:left;
-  width:590px;
-margin-right:10px;
-height:170px;
-background-color:#DCDCDC;
+
+.TopRight{
+float:left;
+min-width:100px;
+
+}
+.TopLeft{
+float:left;
+min-width:70px;
+margin-top:4px;
 }
